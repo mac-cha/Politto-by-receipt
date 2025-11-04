@@ -1,0 +1,95 @@
+
+    body { font-family: "Zen Kaku Gothic New",sans-serif; margin: 0; padding: 0; }
+    header { background: linear-gradient(to bottom, #272798, #0077cc); color: white; padding: 8px 20px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between;
+ align-items: center; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); transition: padding 0.3s ease; }
+    footer { font-size: 0.8em; }
+    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }
+    nav a { color: white; text-decoration: none; }
+    section { padding: 20px; 
+    width: 100%;
+  box-sizing: border-box;}
+    article{ padding: 20px; 
+    width: 100%;
+  box-sizing: border-box;}
+  .dateinarticle{font-size: 0.8em;
+      color: #3a3a3a;
+  }
+  .image-caption {
+  font-size: 0.75em;
+  color: #777;
+  margin-top: 4px;
+}
+.article-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.article-date {
+  font-size: 0.85em;
+  color: #555;
+}
+    footer { background: #f0f0f0; text-align: center; padding: 20px; }
+    .date {
+      font-size: 0.8em;
+      color: #3a3a3a;
+    }
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-break {
+    display: inline;
+  }
+}
+    img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+.site-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.site-title a:hover {
+  text-decoration: underline;
+}
+
+.section-title {
+  border-left: 4px solid #272798;
+  padding-left: 12px;
+}
+a {
+  display: inline-block;
+  color: #0077cc;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+a:hover {
+  transform: translateY(-2px);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
